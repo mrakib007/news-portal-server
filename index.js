@@ -16,7 +16,7 @@ app.get('/news-categories',(req,res)=>{
 }),
 app.get('/news/:id',(req,res)=>{
     const id = req.params.id;
-    if(id==='08'){
+    if(id ==='08'){
         res.send(news);
     }
     else{
